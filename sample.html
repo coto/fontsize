@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+ 
+	<title>jQuery plugin fontSizer</title> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+	<script src="jquery.fontSizer.js" type="text/javascript"></script> 
+	<script type="text/javascript"> 
+		$(document).ready(function(){
+			$('#aumentar').fontSizer({
+				action: "up",
+				elements: "#content",
+				max: 36
+			});
+			
+			$('#disminuir').fontSizer({
+				action: 'down',
+				elements: "#content"
+			});
+		})
+	</script> 
+	<style type="text/css"> 
+		body {font-family: Georgia, serif;}
+	</style> 
+</head> 
+ 
+<body> 
+ 
+	<a href="#" id="aumentar" title="Aumenta tama&ntilde;o texto">Aumenta</a> - <a href="#" id="disminuir" title="Disminuye tama&ntilde;o texto">Disminuye</a> 
+	
+	<div id="content"> 
+		<h1>jQuery plugin fontSizer</h1> 
+		<ul> 
+			<li>Uno</li> 
+			<li>Dos</li> 
+			<li>Tres</li> 
+		</ul> 
+		<p>Vivamus auctor leo vel dui. <strong>Aliquam erat</strong> volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. Duis consectetuer malesuada velit. Nam ante nulla, interdum vel, tristique ac, condimentum non, tellus. Proin ornare feugiat nisl. Suspendisse dolor nisl, ultrices at, eleifend vel, consequat at, dolor.</p> 
+ 
+	</div> 
+	
+</body> 
+</html> 
