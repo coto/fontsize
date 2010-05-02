@@ -1,11 +1,14 @@
-/* ---------------------------------------------
-jQuery fontSizer 1.0
-tested on jQuery 1.4
+/*
+####################################################################
+ jQuery fontSizer 1.0
 
-Copyright (c) 2008 Rodrigo Augosto
-http://www.protoboard.cl
-Licensed under the GPL :
-http://www.gnu.org/licenses/gpl.html
+ Author: Rodrigo Augosto C. (coto) <contact@protoboard.cl>
+ Twitter: http://twitter.com/coto
+ URL: http://protoboard.cl
+ Created: 2008
+####################################################################
+
+Tested: jQuery 1.2 > x < jQuery 1.4
 
 Hosted in: http://github.com/coto/fontsizer
 
