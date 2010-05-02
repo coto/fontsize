@@ -4,6 +4,11 @@
  URL: http://protoboard.cl
  Created: 2008
 
+= Description
+
+ jQuery Plugin to help to increase or decrease font size inside your web site
+ You can choose which elements will be affected
+
 = Tested
  jQuery 1.2 > x < jQuery 1.4
 
