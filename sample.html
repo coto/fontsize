@@ -10,13 +10,13 @@
 	<script src="jquery.fontSizer.js" type="text/javascript"></script> 
 	<script type="text/javascript"> 
 		$(document).ready(function(){
-			$('#aumentar').fontSizer({
+			$('.increase').fontSizer({
 				action: "up",
 				elements: "#content",
 				max: 36
 			});
 			
-			$('#disminuir').fontSizer({
+			$('.decrease').fontSizer({
 				action: 'down',
 				elements: "#content"
 			});
@@ -24,23 +24,54 @@
 	</script> 
 	<style type="text/css"> 
 		body {font-family: Georgia, serif;}
+		.box{
+			border: 2px solid lightblue;
+			color: lightblue;
+			display: block;
+			width: 20px;
+			float: left;
+			margin-right: 5px;
+			padding: 1px 2px;
+			text-decoration: none;
+		}
 	</style> 
 </head> 
- 
 <body> 
- 
-	<a href="#" id="aumentar" title="Aumenta tama&ntilde;o texto">Aumenta</a> - <a href="#" id="disminuir" title="Disminuye tama&ntilde;o texto">Disminuye</a> 
+	<a href="#" class="increase" title="Increase text size">Increase</a> - <a href="#" class="decrease" title="Decrease Text Sise">Decrease</a> 
 	
 	<div id="content"> 
 		<h1>jQuery plugin fontSizer</h1> 
-		<ul> 
-			<li>Uno</li> 
-			<li>Dos</li> 
-			<li>Tres</li> 
-		</ul> 
-		<p>Vivamus auctor leo vel dui. <strong>Aliquam erat</strong> volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim, eu aliquam erat nulla non nibh. Duis consectetuer malesuada velit. Nam ante nulla, interdum vel, tristique ac, condimentum non, tellus. Proin ornare feugiat nisl. Suspendisse dolor nisl, ultrices at, eleifend vel, consequat at, dolor.</p> 
- 
+		<p>Hosted in: http://github.com/coto/fontsizer</p>
+
+		<h2>How to use:</h2>
+		<ol>
+			<li>include jquery.js and jquery.fontSizer.js between <head></head> tags.</li>
+			<li>give id's for both links, for example #increase (+) and #decrease (-)</li>
+			<li>initialize the plugin, like the folowing:<br/>
+<pre>
+$(document).ready(function(){
+	$('#increase').fontSizer({
+		action: "up",
+		max: 36
+	});
+	$('#decrease').fontSizer({
+		action: 'down'
+	});
+});</pre></li>
+			<li>that's it. now, the parameters:
+				<ul>
+					<li>action: "up/down" (required)</li>
+					<li>elements: "element" (which element will be influenced by the font-size)</li>
+					<li>increment: number (how many steps will increase/decrease the font-size)</li>
+					<li>max: number (max. font-size)</li>
+					<li>min: number (min. font-size)</li>
+				</ul>
+			</li>
+		</ol>
 	</div> 
+	<p><a href="http://plugins.jquery.com/project/FontSize">Download</a></p>
+	
+	<a href="#" class="increase box" title="Increase text size">A+</a> <a href="#" class="decrease box" title="Decrease Text Sise">A-</a> 
 	
 </body> 
 </html> 
