@@ -10,7 +10,7 @@
  You can choose which elements will be affected
 
 = Tested
- jQuery 1.2 > x < jQuery 1.4
+ jQuery 1.2 > x < jQuery 1.6.1
 
 = Licensed under the GPL
 http://www.gnu.org/licenses/gpl.html
