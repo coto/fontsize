@@ -1,4 +1,5 @@
-= jQuery fontSize 1.0.1
+= jQuery fontSize Plugin
+ Version: 1.0.1
  Author: Rodrigo Augosto C. (coto) <contact@protoboard.cl>
  Twitter: http://twitter.com/coto
  URL: http://protoboard.cl
