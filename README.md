@@ -1,10 +1,10 @@
 jQuery fontSize Plugin
 ======================
- Version: 1.0.2
- Author: Coto Augosto C.
- URL: http://beecoss.com
- Twitter: http://twitter.com/coto
- Created: 2008
++ Version: 1.0.2
++ Author: Coto Augosto C.
++ URL: http://beecoss.com
++ Twitter: http://twitter.com/coto
++ Created: 2008
 
 Description
 -----------
