@@ -11,7 +11,7 @@
  You can choose which elements will be affected
 
 = Tested
- jQuery 1.2 > x < jQuery 1.6.1
+ jQuery >=1.0.2 or <2.1.2
 
 = Demo
 http://www.beecoss.com/sandbox/fontsize/sample.html
