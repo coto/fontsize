@@ -6,9 +6,9 @@ jQuery fontSize Plugin
  Twitter: http://twitter.com/coto
  Created: 2008
 
-## Description
-
- jQuery plugin helps easily to increase or decrease font size of your website. 
+Description
+-----------
+jQuery plugin helps easily to increase or decrease font size of your website. 
 
 ## Features
 + change the font size for whole Body content or only specific elements in your page.
@@ -16,23 +16,23 @@ jQuery fontSize Plugin
 
 ## Sample
 
-    ```javascript
-	  $(document).ready(function(){
-		$('.increase').fontSize({
-			action: "up",
-			elements: "#content",
-			max: 36
-		});
-		
-		$('.decrease').fontSize({
-			action: 'down',
-			elements: "#content"
-		});
-	  })
-    ```bash
+```javascript
+$(document).ready(function(){
+	$('.increase').fontSize({
+		action: "up",
+		elements: "#content",
+		max: 36
+	});
+
+	$('.decrease').fontSize({
+		action: 'down',
+		elements: "#content"
+	});
+})
+```
 
 ## Tested
- jQuery >=1.0.2
+ jQuery 1.0.2 and above
 
 ## Demo
 http://www.beecoss.com/sandbox/fontsize/sample.html
