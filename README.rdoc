@@ -14,20 +14,21 @@
 + (optional) specific a limit to increase or decreae
 
 = Sample
- ```
-  $(document).ready(function(){
-	$('.increase').fontSize({
-		action: "up",
-		elements: "#content",
-		max: 36
-	});
-	
-	$('.decrease').fontSize({
-		action: 'down',
-		elements: "#content"
-	});
-  })
- ```
+
+    ```javascript
+	  $(document).ready(function(){
+		$('.increase').fontSize({
+			action: "up",
+			elements: "#content",
+			max: 36
+		});
+		
+		$('.decrease').fontSize({
+			action: 'down',
+			elements: "#content"
+		});
+	  })
+    ```bash
 
 = Tested
  jQuery >=1.0.2
