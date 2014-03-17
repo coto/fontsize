@@ -1,7 +1,7 @@
 {
     "name": "fontsize",
     "title": "jQuery FontSize",
-    "description": "jQuery plugin for color manipulation and animation support.",
+    "description": "jQuery plugin helps easily to increase or decrease font size of your website. You can change the font size for whole Body content or only specific elements in your page.",
     "keywords": [
         "font",
         "FontSize",
@@ -22,8 +22,8 @@
     ],
     "bugs": "https://github.com/coto/fontsize/issues",
     "homepage": "http://www.beecoss.com/sandbox/fontsize/sample.html",
-    "docs": "http://www.beecoss.com/sandbox/fontsize/sample.html",
-    "download": "http://code.jquery.com/#color",
+    "docs": "https://github.com/coto/fontsize/blob/master/README.rdoc",
+    "download": "http://plugins.jquery.com/fontsize/",
     "dependencies": {
         "jquery": ">=1.0.2"
     }
