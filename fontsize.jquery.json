@@ -22,7 +22,7 @@
     ],
     "bugs": "https://github.com/coto/fontsize/issues",
     "homepage": "http://www.beecoss.com/sandbox/fontsize/sample.html",
-    "docs": "https://github.com/coto/fontsize/blob/master/README.rdoc",
+    "docs": "https://github.com/coto/fontsize/blob/master/README.md",
     "download": "http://plugins.jquery.com/fontsize/",
     "dependencies": {
         "jquery": ">=1.0.2"
