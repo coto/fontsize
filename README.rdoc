@@ -14,7 +14,7 @@
 + (optional) specific a limit to increase or decreae
 
 = Sample
-
+ ```
   $(document).ready(function(){
 	$('.increase').fontSize({
 		action: "up",
@@ -27,6 +27,7 @@
 		elements: "#content"
 	});
   })
+ ```
 
 = Tested
  jQuery >=1.0.2
@@ -35,7 +36,7 @@
 http://www.beecoss.com/sandbox/fontsize/sample.html
 
 = Download from jQuery Plugin Site
-http://plugins.jquery.com/fontsize/
+http://plugins.jquery.com/fontsize
 
 = Licensed under the GPL
 http://www.gnu.org/licenses/gpl.html
